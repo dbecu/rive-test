@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    background-color: rgb(129, 184, 255);
+    transition: background-color 1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 32px;
+    margin: 16px;
+}
+
+#main-heading{
+    text-align: center;
+}
